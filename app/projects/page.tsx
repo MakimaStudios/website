@@ -122,7 +122,7 @@ export default function Projects() {
           <div className="relative">
             <div className="absolute inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-10 flex flex-col items-center justify-center rounded-2xl">
               <h2 className="text-4xl md:text-6xl font-bold text-white mb-4">Coming Soon</h2>
-              <p className="text-[#999] max-w-md text-center">We're working on some amazing projects. Check back soon to see our complete portfolio.</p>
+              <p className="text-[#999] max-w-md text-center">We&apos;re working on some amazing projects. Check back soon to see our complete portfolio.</p>
             </div>
             
             <motion.div 

@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
 import Footer from "../components/Footer";
 
 // Animation variants
@@ -25,43 +24,6 @@ const staggerContainer = {
 };
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSuccess(true);
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: ""
-      });
-      
-      setTimeout(() => {
-        setIsSuccess(false);
-      }, 3000);
-    }, 1500);
-  };
-
   return (
     <>
       {/* Hero Section */}
@@ -84,7 +46,7 @@ export default function Contact() {
               variants={fadeIn}
               className="text-base sm:text-lg text-[#999] mb-8 sm:mb-10 max-w-2xl mx-auto"
             >
-              Have a project in mind or just want to say hello? We'd love to hear from you.
+              Have a project in mind or just want to say hello? We&apos;d love to hear from you.
             </motion.p>
           </motion.div>
         </div>
@@ -105,7 +67,7 @@ export default function Contact() {
               <motion.div variants={fadeIn}>
                 <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Contact Information</h2>
                 <p className="text-sm sm:text-base text-[#999] mb-6 sm:mb-8">
-                  Feel free to reach out to us through any of the following channels. We're always excited to discuss new projects and opportunities.
+                  Feel free to reach out to us through any of the following channels. We&apos;re always excited to discuss new projects and opportunities.
                 </p>
               </motion.div>
               
