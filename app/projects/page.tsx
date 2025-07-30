@@ -86,7 +86,7 @@ export default function Projects() {
               variants={fadeIn}
               className="text-5xl md:text-7xl font-bold mb-6"
             >
-              Our <span className="text-[#666]">Projects</span>
+              Our <span className="text-white underline drop-shadow-[0_0_60px_rgba(255,255,255,0.8)]">Projects</span>
             </motion.h1>
             
             <motion.p 
