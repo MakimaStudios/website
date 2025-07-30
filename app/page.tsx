@@ -142,25 +142,41 @@ export default function Home() {
             <motion.div variants={fadeIn} className="relative">
               <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-12">
                 {/* First team member avatar */}
-                <div className="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-2 border-[#333] bg-[#111]">
-                  <Image 
-                    src="/nexsu.jpg" 
-                    alt="Batuhan (nexsu)" 
-                    layout="fill" 
-                    objectFit="cover"
-                    className="hover:scale-110 transition-transform duration-300"
-                  />
+                <div className="flex flex-col items-center gap-4">
+                  <div className="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-2 border-[#333] bg-[#111]">
+                    <Image 
+                      src="/nexsu.jpg" 
+                      alt="Batuhan (nexsu)" 
+                      layout="fill" 
+                      objectFit="cover"
+                      className="hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <p className="font-medium">@nexsu</p>
+                    <a href="https://instagram.com/nexsu.u" target="_blank" rel="noopener noreferrer" className="text-[#999] hover:text-white transition-colors">
+                      Instagram
+                    </a>
+                  </div>
                 </div>
                 
                 {/* Second team member avatar */}
-                <div className="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-2 border-[#333] bg-[#111]">
-                  <Image 
-                    src="/vendo.jpg" 
-                    alt="İlker (vendo)" 
-                    layout="fill" 
-                    objectFit="cover"
-                    className="hover:scale-110 transition-transform duration-300"
-                  />
+                <div className="flex flex-col items-center gap-4">
+                  <div className="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-2 border-[#333] bg-[#111]">
+                    <Image 
+                      src="/vendo.jpg" 
+                      alt="İlker (vendo)" 
+                      layout="fill" 
+                      objectFit="cover"
+                      className="hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <p className="font-medium">@vendo</p>
+                    <a href="https://instagram.com/vendo.o10" target="_blank" rel="noopener noreferrer" className="text-[#999] hover:text-white transition-colors">
+                      Instagram
+                    </a>
+                  </div>
                 </div>
               </div>
             </motion.div>

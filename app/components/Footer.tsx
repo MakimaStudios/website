@@ -9,7 +9,7 @@ export default function Footer() {
       <Image 
       src="/makimastud.png" 
       alt="MAKIMA STUDIOS" 
-      width={80} 
+      width={120} 
       height={80} 
       className="w-50 h-8"
       />
