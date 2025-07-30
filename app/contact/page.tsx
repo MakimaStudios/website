@@ -85,21 +85,6 @@ export default function Contact() {
                     </a>
                   </div>
                 </div>
-
-                <div className="flex gap-4 sm:gap-6 items-start">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-md bg-transparent flex items-center justify-center flex-shrink-0">
-                    <svg className="w-4 h-4 sm:w-5 sm:h-5 text-[#999]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Working Hours</h3>
-                    <p className="text-sm sm:text-base text-[#999]">
-                      Monday - Friday: 9AM - 5PM<br />
-                      Weekend: By appointment
-                    </p>
-                  </div>
-                </div>
               </motion.div>
               
               <motion.div variants={fadeIn} className="pt-6 sm:pt-8">
