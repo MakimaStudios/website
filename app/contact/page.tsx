@@ -80,8 +80,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Email</h3>
-                    <a href="mailto:makimastudios@gmail.com" className="text-sm sm:text-base text-[#999] hover:text-white transition-colors">
-                      makimastudios@gmail.com
+                    <a href="mailto:studiosmakima@gmail.com" className="text-sm sm:text-base text-[#999] hover:text-white transition-colors">
+                      studiosmakima@gmail.com
                     </a>
                   </div>
                 </div>
